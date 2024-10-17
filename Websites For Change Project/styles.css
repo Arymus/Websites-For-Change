@@ -1,0 +1,26 @@
+@font-face {
+    font-family: Playwrite;
+    src: url(PlaywriteGBS-Regular.ttf);
+}
+
+body {
+    height: 100vh;
+    width: 100vw;
+    margin: 0;
+}
+
+header {
+    background-image: url(background.webp);
+    background-repeat: no-repeat;
+    background-size: 100vw 80vh;
+    height: 50vh;
+    width: 100vw;
+}
+
+h1 {
+    font-family: Playwrite;
+    color: #ee2b7a;
+    font-weight: 100;
+    text-align: center;
+    margin: 0;
+}
