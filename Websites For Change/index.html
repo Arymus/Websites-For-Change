@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="author" content="Arymus Reyes">
+        <meta name="description" content="A website on breast cancer awareness for the month of october.">
+        <meta charset="UTF-8">
+        <title>Breast Cancer Awareness</title>
+        <link rel="stylesheet" href="styles.css">
+        <link rel="icon" type="image/x-icon" href="ribbon.png" sizes=64x64>
+        <script src="script.js" defer></script>
+    </head>
+    <body>
+        <nav>
+            <a href="#about" class="navLinks">About</a>
+            <a href="#donate" class="navLinks">Donate</a>
+            <a href="#volunteer" class="navLinks">Volunteer</a>
+        </nav>
+        <header>
+            <!--Labeled my ID's using camelCase because why not-->
+        </header>
+        <main>
+            <br>
+            <h1 id="headerText">Breast Cancer Awareness</h1>
+            <br>
+            <div class="audio">
+                <audio controls>
+                    <source src="audio.mp3">
+                    Your browser does not support this audio.
+                </audio>
+            </div>
+            <br>
+            <article>
+                <section class="about" id="about">
+                    <h2>About Breast Cancer:
+                    <br>
+                    Symptoms, Treatments, and General Information
+                    </h2>
+                    <br>
+                    <sub id="aboutCredit">Information provided by <a href="https://my.clevelandclinic.org/health/diseases/3986-breast-cancer" id="subLink" target="_blank">Cleveland Clinic</a></sub>
+                    <p>Breast cancer is a disease caused when a cancerous breast cell multiplies and becomes a tumor, or a small lump, in the breast. Some causes of breast cancer include:</p>
+                    <img src="cancer_stats.png" height="400" width="400" alt="1 in 8 women will develop cancer in her lifetime" id="cancerStatsImg" class="image">
+                    <ul class="causeList">
+                        <li>Drinking</li>
+                        <li>Smoking</li>
+                        <li>Being 55 or older</li>
+                        <li>Obesity</li>
+                        <li>Genetics</li>
+                        <li>Exposure to radiation</li>
+                    </ul>
+                    <p class="listParagraph">Breast cancer comes in stages 0-4:</p>
+                    <ol class="stageList">
+                        <li>Stage 0 - A lump in the breast, bloody discharge from the nipple, or changes in shape or texture.</li>
+                        <li>Stage 1 - Cancerous cells begin to infect nearby breast tissue.</li>
+                        <li>Stage 2 - The cancerous cells have formed a tumor, which usually spans from 2cm to 5cm wide.</li>
+                        <li>Stage 3 - Breast cancer infects nearby tissue and <dfn title="Small, bean-shaped parts of the body's immune system that help fight infection and disease." id="lymphNodes">lymph nodes</dfn>.</li>
+                        <li>Stage 4 - Cancer spreads to other areas outside the breast.</li>
+                    </ol>
+                    <p id="treatmentText">Breast cancer can be treated in mutliple ways, including:</p>
+                    <img src="cancer_stats2.png" height="400" width="400" alt="Estimated 310,720 breast cancer cases in 2024" id="cancerStatsImg2" class="image">
+                    <ul class="treatmentList">
+                        <li><dfn title="A surgical procedure to remove part or all of the breast.">Mastectomy</dfn></li>
+                        <li><dfn title="A surgical procedure to remove cancerous cells in the breast.">Lumpectomy</dfn></li>
+                        <li><dfn title="A procedure that uses drugs to kill cancerous cells in the breast.">Chemotherapy</dfn></li>
+                        <li><dfn title="A procedure that uses x-rays to kill cancerous cells in the breast.">Radiation Therapy</dfn></li>
+                        <li><dfn title="A procedure that improves the immune system to kill cancerous cells in the breast.">Immunotherapy</dfn></li>
+                    </ul>
+                </section>
+                <br>
+                <section class="donate" id="donate">
+                    <h2>Where can I donate?</h2>
+                    <p>You can donate through multiple breast cancer fundraisers, such as:</p>
+                    <ol>
+                        <li><a href="https://nationalbreastcancer.org/?form=donate" class="link" target="_blank">National Breast Cancer</a></li>
+                        <li><a href="https://www.cancer.org/involved/fundraise/making-strides-against-breast-cancer.html" class="link" target="_blank">American Cancer Society</a></li>
+                        <li><a href="https://give.bcrf.org/campaign/584695/donate?_gl=1*qiw458*_ga*OTE5NjEzMzI3LjE3Mjk0NjEyMTY.*_ga_61MQ2V46X2*MTcyOTQ2MTIxNS4xLjEuMTcyOTQ2MTIyMS41NC4wLjEyMzQ5MTY2Mjg.&_ga=2.23812594.997796173.1729461217-919613327.1729461216" class="link" target="_blank">Breast Cancer Research Foundation</a></li>
+                    </ol>
+                </section>
+                <section class="volunteer" id="volunteer">
+                    <h2>How do I volunteer?</h2>
+                    <p>You can volunteer through multiple breast cancer awareness programs, such as:</p>
+                    <img src="cancer_stats3.webp" height="400" width="400" alt="30% of all cancer diagnoses in women will be breast cancer." id="cancerStatsImg3" class="image">
+                    <ol>
+                        <li><a href="https://komen.org/how-to-help/volunteer/" class="link" target="_blank">Komen</a></li>
+                        <li><a href="https://www.cancer.org/involved/volunteer.html" class="link" target="_blank">American Cancer Society</a></li>
+                        <li><a href="https://pinkaid.org/volunteer/" class="link" target="_blank">Pink Aid</a></li>
+                    </ol>
+                </section>
+                <form id="form">
+                    <h3>Interested in updates?</h4>
+                    <input type="email" placeholder="Email">
+                    <br>
+                    <input type="text" placeholder="Name">
+                    <br>
+                    <button id="submit">Submit</button>
+                </form>
+                <br>
+                <br>
+                <h2>Want To Know More?</h2>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/QVCjdNxJreE?si=Ji0oImvss36E1cx5" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin"  id="video" allowfullscreen></iframe>
+            </article>
+        </main>
+        <footer>
+            <a href="https://github.com/Arymus/Websites-For-Change/" class="footerLinks" target="_blank">Source Code</a>
+            <br>
+            <a href="https://www.youtube.com/watch?v=BV7RkEL6oRc" class="footerLinks" target="_blank">Background Music</a>
+        </footer>
+    </body>
+</html>
