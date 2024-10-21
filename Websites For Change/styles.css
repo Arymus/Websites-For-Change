@@ -21,8 +21,8 @@ body {
 }
 
 @keyframes imageBounce {
-    from {box-shadow: none; height: 400px; width: 400px;}
-    to {box-shadow: 5px 5px 5px #cb0152; height: 425px; width: 425px;}
+    from {box-shadow: none; height: 410px; width: 410px;}
+    to {box-shadow: 5px 5px 5px #cb0152; height: 420px; width: 420px;}
 }
 
 nav {
